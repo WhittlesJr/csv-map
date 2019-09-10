@@ -1,5 +1,5 @@
 (ns csv-map.core
-  (:require (clojure-csv core)
+  (:require [clojure-csv.core]
             [clojure.string :as s]))
 
 ;; Helper
