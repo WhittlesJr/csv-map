@@ -4,13 +4,21 @@ A Clojure library that reads well formed csv files into a sequence of maps
 ({}) using the first line as column headers. It also supports writing csv's
 from the same structures
 
-## Usage
+## Installation
 
-In leiningen add 
+Leiningen:
 
 ```clojure
-[csv-map "0.1.2"]
+[csv-map "0.1.3"]
 ```
+
+tools-deps:
+
+```clojure
+{csv-map {:mvn/version "0.1.3"}}
+```
+
+## Usage
 
 Like clojure-csv csv-map exposes two public functions: parse-csv and
 write-csv. Use it like:
