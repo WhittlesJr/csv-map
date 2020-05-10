@@ -28,5 +28,6 @@ clojure-csv's parse and write functions.
 ## License
 
 Copyright © 2013 Michael Bauer
+Modified work Copyright © 2019 Alex Whitt
 
-Distributed under the Eclipse Public License, the same as Clojure.
+Distributed under the Eclipse Public License 1.0, the same as Clojure (see LICENSE.md).
